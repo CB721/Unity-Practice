@@ -21,6 +21,8 @@ public class Aim : MonoBehaviour
         Vector3 direction = _focusCube.position - transform.position;
         Debug.DrawRay(transform.position, direction, Color.green);
         // access our current location = Quaternion look rotation
-        transform.rotation = Quaternion.LookRotation(direction);
+        // transform.rotation = Quaternion.LookRotation(direction);
+        Quaternion targetRotation = Quaternion.LookRotation(direction);
+        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime);
     }
 }
