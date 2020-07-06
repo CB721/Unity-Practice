@@ -37,10 +37,4 @@ public class Variables : MonoBehaviour
         }
         Debug.Log($"I have {ammoCount} ammo left.");
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 }
