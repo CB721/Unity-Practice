@@ -7,7 +7,7 @@ public class QuizCalculator : MonoBehaviour
     // create an array of grades
     ArrayList grades = new ArrayList();
     // for each grade, add to the total
-    private int total;
+    private int _total;
     // variable amount of grades to be generated, default to 5
     public int gradeAmount = 5;
     // convert a number to a letter grade
@@ -72,10 +72,10 @@ public class QuizCalculator : MonoBehaviour
             // add that number to grades array
             grades.Add(ConvertGrades(randomGrade));
             // add the number to the total
-            total += randomGrade;
+            _total += randomGrade;
         }
         // get the average grades
-        float avg = Mathf.Round(total / grades.Count);
+        float avg = Mathf.Round(_total / grades.Count);
         string avgGrade = ConvertGrades((int)avg);
         // print the all of the grades
         for (int j= 0; j < grades.Count; j++)
