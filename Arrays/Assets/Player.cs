@@ -20,6 +20,13 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        // print out all of the names using a foreach loop
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            foreach(var name in names)
+            {
+                Debug.Log(name);
+            }
+        }
     }
 }
