@@ -306,23 +306,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5de75cc1cd35b49e99733efd4b89ce5d, type: 3}
+  m_Script: {fileID: 11500000, guid: d5e484f64d516473b9a259ed8568457d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ages: 0f00000010000000230000001c000000
-  names:
-  - John
-  - Clint
-  - Kara
-  - Dave
-  - Kyle
-  - Dan
-  - Albert
-  - James
-  - Kobe
-  - Ruby
-  - Ellie
-  - Bruce
-  - Patrick
-  - Evan
-  - Andre
+  myItems:
+  - ID: 0
+    name: NULL
+    description: NULL
+  - ID: 1
+    name: Sword
+    description: Magical Sword
+  - ID: 2
+    name: Bread
+    description: V tasty
+  - ID: 3
+    name: Spear
+    description: Sharp point
+  - ID: 4
+    name: Cape
+    description: Fashion
