@@ -19,6 +19,6 @@ public class Spell
     }
     public void Cast()
     {
-        Debug.Log($"{name} spell cast");
+        Debug.Log($"{this.name} spell cast");
     }
 }
