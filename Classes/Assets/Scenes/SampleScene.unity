@@ -615,19 +615,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da465af4f237d48fda021883aa7a6946, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  items: []
-  sword:
-    name: 
-    id: 0
-    desc: 
-  hammer:
-    name: 
-    id: 0
-    desc: 
   bread:
-    name: 
-    id: 0
-    desc: 
+    name: Crusty White
+    id: 1
+    desc: Whole grain bread powdered with flour
+    addedHealth: 15
+    poison: 0
+  sword:
+    name: Blue Spirit
+    id: 2
+    desc: Paid of two thin swords
+    attackBonus: 45
+    prayerBonus: 5
+    strengthBonus: 24
+    mageBonus: 0
+  hammer:
+    name: Thor's Backup Hammer
+    id: 3
+    desc: A backup hammer for when Thor loses his first one
+    attackBonus: 37
+    prayerBonus: 0
+    strengthBonus: 62
+    mageBonus: 0
 --- !u!4 &1455201393
 Transform:
   m_ObjectHideFlags: 0

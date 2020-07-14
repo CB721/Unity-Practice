@@ -8,10 +8,10 @@ public class Item
     public string name;
     public int id;
     public string desc;
-    public Item(string name, int id, string desc)
-    {
-        this.name = name;
-        this.id = id;
-        this.desc = desc;
-    }
+    // public Item(string name, int id, string desc)
+    // {
+    //     this.name = name;
+    //     this.id = id;
+    //     this.desc = desc;
+    // }
 }
