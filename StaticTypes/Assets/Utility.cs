@@ -14,4 +14,8 @@ public static class Utility
         // change position of the object
         obj.transform.position = Vector3.zero;
     }
+    public static void ChangeColor(GameObject obj, Color color)
+    {
+        obj.GetComponent<Renderer>().material.color = color;
+    }
 }
