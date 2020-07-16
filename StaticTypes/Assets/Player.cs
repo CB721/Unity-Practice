@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.C))
         {
             // generate random color
-            Color newColor = new Color(Random.Range(0, 256), Random.Range(0, 256), Random.Range(0, 256), 255);
+            Color newColor = new Color(Random.value, Random.value, Random.value, 255);
             Utility.ChangeColor(this.gameObject, newColor);
         }
     }
