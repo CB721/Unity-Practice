@@ -11,7 +11,7 @@ public class Weapon : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        WeaponPack.Weapon = new WeaponPack.Weapon();
+        WeaponPack.Weapon sword = new WeaponPack.Weapon();
     }
 
     // Update is called once per frame
