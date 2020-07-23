@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SelectDifficulty : MonoBehaviour
 {
@@ -14,6 +15,6 @@ public class SelectDifficulty : MonoBehaviour
     public LevelSelector currLevel;
     void Start()
     {
-        Debug.Log($"You selected the {currLevel} level!");
+        SceneManager.LoadScene((int)currLevel);
     }
 }
