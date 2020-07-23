@@ -17,14 +17,14 @@ public class GameManager : MonoBehaviour
         names.Add("Luigi");
         names.Add("Spencer");
         names.Add("Carla");
-        _PrintNames();
+        // _PrintNames();
     }
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && names.Count > 0) {
             int index = Random.Range(0, names.Count - 1);
             names.RemoveAt(index);
-            _PrintNames();
+            // _PrintNames();
         }
     }
     private void _PrintNames()

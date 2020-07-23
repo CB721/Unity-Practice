@@ -17,7 +17,6 @@ public class EnemySpawn : MonoBehaviour
     {
         while (true)
         {
-            Debug.Log(enemyIndex);
             if (enemyIndex >= enemies.Count - 1)
             {
                 enemyIndex = 0;
